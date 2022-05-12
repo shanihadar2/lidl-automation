@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="27" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="828321" started-at="2022-05-12T10:17:17 IDT" finished-at="2022-05-12T10:31:05 IDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="828321" started-at="2022-05-12T10:17:17 IDT" finished-at="2022-05-12T10:31:05 IDT">
+      <class name="tests.SearchAndAddProductsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="setup" is-config="true" duration-ms="26979" started-at="2022-05-12T10:21:52 IDT" finished-at="2022-05-12T10:22:19 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc11_AddProductFromSearch()[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="tc11_AddProductFromSearch" duration-ms="39370" started-at="2022-05-12T10:22:19 IDT" finished-at="2022-05-12T10:22:58 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11_AddProductFromSearch -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-05-12T10:22:58 IDT" finished-at="2022-05-12T10:22:58 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc11_AddProductFromSearch status=SUCCESS method=SearchAndAddProductsTest.tc11_AddProductFromSearch()[pri:0, instance:tests.SearchAndAddProductsTest@306279ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc12_tc13_tc14_addNewRegularProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="tc12_tc13_tc14_addNewRegularProduct" duration-ms="31714" started-at="2022-05-12T10:22:59 IDT" data-provider="getDataFromExcel" finished-at="2022-05-12T10:23:30 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bakery]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rolls & bagels]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crustini roll]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[list1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12_tc13_tc14_addNewRegularProduct -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-12T10:23:30 IDT" finished-at="2022-05-12T10:23:30 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc12_tc13_tc14_addNewRegularProduct status=SUCCESS method=SearchAndAddProductsTest.tc12_tc13_tc14_addNewRegularProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc12_tc13_tc14_addNewRegularProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="tc12_tc13_tc14_addNewRegularProduct" duration-ms="40554" started-at="2022-05-12T10:23:30 IDT" data-provider="getDataFromExcel" finished-at="2022-05-12T10:24:11 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fresh produce]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fresh fruits]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bananas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[list1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12_tc13_tc14_addNewRegularProduct -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-12T10:24:11 IDT" finished-at="2022-05-12T10:24:11 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc12_tc13_tc14_addNewRegularProduct status=SUCCESS method=SearchAndAddProductsTest.tc12_tc13_tc14_addNewRegularProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc12_tc13_tc14_addNewRegularProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="tc12_tc13_tc14_addNewRegularProduct" duration-ms="48001" started-at="2022-05-12T10:24:11 IDT" data-provider="getDataFromExcel" finished-at="2022-05-12T10:24:59 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pantry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chocolate & candy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dark chocolate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[list1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12_tc13_tc14_addNewRegularProduct -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-05-12T10:24:59 IDT" finished-at="2022-05-12T10:24:59 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc12_tc13_tc14_addNewRegularProduct status=SUCCESS method=SearchAndAddProductsTest.tc12_tc13_tc14_addNewRegularProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="FAIL" signature="tc15_addAlreadyExistProduct()[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="tc15_addAlreadyExistProduct" duration-ms="32206" started-at="2022-05-12T10:24:59 IDT" finished-at="2022-05-12T10:25:31 IDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [1]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at tests.SearchAndAddProductsTest.tc15_addAlreadyExistProduct(SearchAndAddProductsTest.java:92)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc15_addAlreadyExistProduct -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="failedTest" is-config="true" duration-ms="582" started-at="2022-05-12T10:25:31 IDT" finished-at="2022-05-12T10:25:32 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc15_addAlreadyExistProduct status=FAILURE method=SearchAndAddProductsTest.tc15_addAlreadyExistProduct()[pri:0, instance:tests.SearchAndAddProductsTest@306279ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc16_addMultipleTypesProduct()[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="tc16_addMultipleTypesProduct" duration-ms="49854" started-at="2022-05-12T10:25:32 IDT" finished-at="2022-05-12T10:26:22 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc16_addMultipleTypesProduct -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="failedTest" is-config="true" duration-ms="5" started-at="2022-05-12T10:26:22 IDT" finished-at="2022-05-12T10:26:22 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc16_addMultipleTypesProduct status=SUCCESS method=SearchAndAddProductsTest.tc16_addMultipleTypesProduct()[pri:0, instance:tests.SearchAndAddProductsTest@306279ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc17_addMultipleTypesProduct()[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="tc17_addMultipleTypesProduct" duration-ms="36974" started-at="2022-05-12T10:26:22 IDT" finished-at="2022-05-12T10:26:59 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc17_addMultipleTypesProduct -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-12T10:26:59 IDT" finished-at="2022-05-12T10:26:59 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc17_addMultipleTypesProduct status=SUCCESS method=SearchAndAddProductsTest.tc17_addMultipleTypesProduct()[pri:0, instance:tests.SearchAndAddProductsTest@306279ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchAndAddProductsTest@306279ee]" name="tearDown" is-config="true" duration-ms="1487" started-at="2022-05-12T10:26:59 IDT" finished-at="2022-05-12T10:27:00 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchAndAddProductsTest -->
+      <class name="tests.ShoppingListsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="setup" is-config="true" duration-ms="28210" started-at="2022-05-12T10:27:00 IDT" finished-at="2022-05-12T10:27:28 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc18_updateQuantity()[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="tc18_updateQuantity" duration-ms="28512" started-at="2022-05-12T10:27:28 IDT" finished-at="2022-05-12T10:27:57 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc18_updateQuantity -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-05-12T10:27:57 IDT" finished-at="2022-05-12T10:27:57 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc18_updateQuantity status=SUCCESS method=ShoppingListsTest.tc18_updateQuantity()[pri:0, instance:tests.ShoppingListsTest@545997b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc19_updateIncorrectQuantity()[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="tc19_updateIncorrectQuantity" duration-ms="10106" started-at="2022-05-12T10:27:57 IDT" finished-at="2022-05-12T10:28:07 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc19_updateIncorrectQuantity -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-05-12T10:28:07 IDT" finished-at="2022-05-12T10:28:07 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc19_updateIncorrectQuantity status=SUCCESS method=ShoppingListsTest.tc19_updateIncorrectQuantity()[pri:0, instance:tests.ShoppingListsTest@545997b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc20_deleteProduct()[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="tc20_deleteProduct" duration-ms="17509" started-at="2022-05-12T10:28:07 IDT" finished-at="2022-05-12T10:28:25 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc20_deleteProduct -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-12T10:28:25 IDT" finished-at="2022-05-12T10:28:25 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc20_deleteProduct status=SUCCESS method=ShoppingListsTest.tc20_deleteProduct()[pri:0, instance:tests.ShoppingListsTest@545997b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc21_deleteAllProducts()[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="tc21_deleteAllProducts" duration-ms="21537" started-at="2022-05-12T10:28:25 IDT" finished-at="2022-05-12T10:28:46 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc21_deleteAllProducts -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="failedTest" is-config="true" duration-ms="2" started-at="2022-05-12T10:28:46 IDT" finished-at="2022-05-12T10:28:46 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc21_deleteAllProducts status=SUCCESS method=ShoppingListsTest.tc21_deleteAllProducts()[pri:0, instance:tests.ShoppingListsTest@545997b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc22_deleteList()[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="tc22_deleteList" duration-ms="11239" started-at="2022-05-12T10:28:46 IDT" finished-at="2022-05-12T10:28:57 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc22_deleteList -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-05-12T10:28:57 IDT" finished-at="2022-05-12T10:28:57 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc22_deleteList status=SUCCESS method=ShoppingListsTest.tc22_deleteList()[pri:0, instance:tests.ShoppingListsTest@545997b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc23_addNewList()[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="tc23_addNewList" duration-ms="8040" started-at="2022-05-12T10:28:57 IDT" finished-at="2022-05-12T10:29:05 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc23_addNewList -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-05-12T10:29:05 IDT" finished-at="2022-05-12T10:29:05 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc23_addNewList status=SUCCESS method=ShoppingListsTest.tc23_addNewList()[pri:0, instance:tests.ShoppingListsTest@545997b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ShoppingListsTest@545997b1]" name="tearDown" is-config="true" duration-ms="1542" started-at="2022-05-12T10:29:05 IDT" finished-at="2022-05-12T10:29:07 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ShoppingListsTest -->
+      <class name="tests.FooterLinksTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.FooterLinksTest@77846d2c]" name="setup" is-config="true" duration-ms="28454" started-at="2022-05-12T10:30:27 IDT" finished-at="2022-05-12T10:30:55 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc020_termsOfUse()[pri:0, instance:tests.FooterLinksTest@77846d2c]" name="tc020_termsOfUse" duration-ms="4098" started-at="2022-05-12T10:30:55 IDT" finished-at="2022-05-12T10:30:59 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc020_termsOfUse -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.FooterLinksTest@77846d2c]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-05-12T10:30:59 IDT" finished-at="2022-05-12T10:30:59 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc020_termsOfUse status=SUCCESS method=FooterLinksTest.tc020_termsOfUse()[pri:0, instance:tests.FooterLinksTest@77846d2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc021_giftCardTermsAndConditions()[pri:0, instance:tests.FooterLinksTest@77846d2c]" name="tc021_giftCardTermsAndConditions" duration-ms="4418" started-at="2022-05-12T10:30:59 IDT" finished-at="2022-05-12T10:31:04 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc021_giftCardTermsAndConditions -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.FooterLinksTest@77846d2c]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-12T10:31:04 IDT" finished-at="2022-05-12T10:31:04 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc021_giftCardTermsAndConditions status=SUCCESS method=FooterLinksTest.tc021_giftCardTermsAndConditions()[pri:0, instance:tests.FooterLinksTest@77846d2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.FooterLinksTest@77846d2c]" name="tearDown" is-config="true" duration-ms="1611" started-at="2022-05-12T10:31:04 IDT" finished-at="2022-05-12T10:31:05 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FooterLinksTest -->
+      <class name="tests.SearchStoreTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchStoreTest@4cf4d528]" name="setup" is-config="true" duration-ms="25880" started-at="2022-05-12T10:29:07 IDT" finished-at="2022-05-12T10:29:33 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc24_tc25_searchStore(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchStoreTest@4cf4d528]" name="tc24_tc25_searchStore" duration-ms="41018" started-at="2022-05-12T10:29:33 IDT" data-provider="getDataFromExcel" finished-at="2022-05-12T10:30:14 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new york]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc24_tc25_searchStore -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchStoreTest@4cf4d528]" name="failedTest" is-config="true" duration-ms="2" started-at="2022-05-12T10:30:14 IDT" finished-at="2022-05-12T10:30:14 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc24_tc25_searchStore status=SUCCESS method=SearchStoreTest.tc24_tc25_searchStore(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchStoreTest@4cf4d528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc24_tc25_searchStore(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchStoreTest@4cf4d528]" name="tc24_tc25_searchStore" duration-ms="10972" started-at="2022-05-12T10:30:14 IDT" data-provider="getDataFromExcel" finished-at="2022-05-12T10:30:25 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tel aviv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sorry, we couldn't find any nearby stores.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc24_tc25_searchStore -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchStoreTest@4cf4d528]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-12T10:30:25 IDT" finished-at="2022-05-12T10:30:25 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc24_tc25_searchStore status=SUCCESS method=SearchStoreTest.tc24_tc25_searchStore(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SearchStoreTest@4cf4d528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchStoreTest@4cf4d528]" name="tearDown" is-config="true" duration-ms="1612" started-at="2022-05-12T10:30:25 IDT" finished-at="2022-05-12T10:30:27 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchStoreTest -->
+      <class name="tests.CategoriesTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CategoriesTest@646007f4]" name="setup" is-config="true" duration-ms="25445" started-at="2022-05-12T10:18:33 IDT" finished-at="2022-05-12T10:18:59 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc04_tc05_tc06_openCategory(java.lang.String,java.lang.String)[pri:0, instance:tests.CategoriesTest@646007f4]" name="tc04_tc05_tc06_openCategory" duration-ms="21560" started-at="2022-05-12T10:19:05 IDT" data-provider="getDataFromExcel" finished-at="2022-05-12T10:19:26 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dairy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_tc05_tc06_openCategory -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.CategoriesTest@646007f4]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-12T10:19:26 IDT" finished-at="2022-05-12T10:19:26 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_tc05_tc06_openCategory status=SUCCESS method=CategoriesTest.tc04_tc05_tc06_openCategory(java.lang.String,java.lang.String)[pri:0, instance:tests.CategoriesTest@646007f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc04_tc05_tc06_openCategory(java.lang.String,java.lang.String)[pri:0, instance:tests.CategoriesTest@646007f4]" name="tc04_tc05_tc06_openCategory" duration-ms="19653" started-at="2022-05-12T10:19:26 IDT" data-provider="getDataFromExcel" finished-at="2022-05-12T10:19:46 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pantry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_tc05_tc06_openCategory -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.CategoriesTest@646007f4]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-05-12T10:19:46 IDT" finished-at="2022-05-12T10:19:46 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_tc05_tc06_openCategory status=SUCCESS method=CategoriesTest.tc04_tc05_tc06_openCategory(java.lang.String,java.lang.String)[pri:0, instance:tests.CategoriesTest@646007f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc04_tc05_tc06_openCategory(java.lang.String,java.lang.String)[pri:0, instance:tests.CategoriesTest@646007f4]" name="tc04_tc05_tc06_openCategory" duration-ms="8029" started-at="2022-05-12T10:19:46 IDT" data-provider="getDataFromExcel" finished-at="2022-05-12T10:19:54 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bakery]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_tc05_tc06_openCategory -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.CategoriesTest@646007f4]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-12T10:19:54 IDT" finished-at="2022-05-12T10:19:54 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_tc05_tc06_openCategory status=SUCCESS method=CategoriesTest.tc04_tc05_tc06_openCategory(java.lang.String,java.lang.String)[pri:0, instance:tests.CategoriesTest@646007f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc07_toatlProductsInSubCategory()[pri:0, instance:tests.CategoriesTest@646007f4]" name="tc07_toatlProductsInSubCategory" duration-ms="9707" started-at="2022-05-12T10:19:54 IDT" finished-at="2022-05-12T10:20:04 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_toatlProductsInSubCategory -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.CategoriesTest@646007f4]" name="failedTest" is-config="true" duration-ms="0" started-at="2022-05-12T10:20:04 IDT" finished-at="2022-05-12T10:20:04 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc07_toatlProductsInSubCategory status=SUCCESS method=CategoriesTest.tc07_toatlProductsInSubCategory()[pri:0, instance:tests.CategoriesTest@646007f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CategoriesTest@646007f4]" name="tearDown" is-config="true" duration-ms="1573" started-at="2022-05-12T10:20:04 IDT" finished-at="2022-05-12T10:20:05 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CategoriesTest -->
+      <class name="tests.ProductDetailsPagesTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ProductDetailsPagesTest@481a15ff]" name="setup" is-config="true" duration-ms="23321" started-at="2022-05-12T10:20:05 IDT" finished-at="2022-05-12T10:20:29 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc08_tc09_tc10_productDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ProductDetailsPagesTest@481a15ff]" name="tc08_tc09_tc10_productDetails" duration-ms="35925" started-at="2022-05-12T10:20:29 IDT" data-provider="getDataFromExcel" finished-at="2022-05-12T10:21:05 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[household essentials]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paper & plastics]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ultra soft bath tissue]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[paper]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_tc09_tc10_productDetails -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ProductDetailsPagesTest@481a15ff]" name="failedTest" is-config="true" duration-ms="2" started-at="2022-05-12T10:21:05 IDT" finished-at="2022-05-12T10:21:05 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc08_tc09_tc10_productDetails status=SUCCESS method=ProductDetailsPagesTest.tc08_tc09_tc10_productDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ProductDetailsPagesTest@481a15ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc08_tc09_tc10_productDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ProductDetailsPagesTest@481a15ff]" name="tc08_tc09_tc10_productDetails" duration-ms="21733" started-at="2022-05-12T10:21:05 IDT" data-provider="getDataFromExcel" finished-at="2022-05-12T10:21:27 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[frozen goods]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[frozen breakfast]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[frozen buttermilk waffles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[frozen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_tc09_tc10_productDetails -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ProductDetailsPagesTest@481a15ff]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-12T10:21:27 IDT" finished-at="2022-05-12T10:21:27 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc08_tc09_tc10_productDetails status=SUCCESS method=ProductDetailsPagesTest.tc08_tc09_tc10_productDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ProductDetailsPagesTest@481a15ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc08_tc09_tc10_productDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ProductDetailsPagesTest@481a15ff]" name="tc08_tc09_tc10_productDetails" duration-ms="23658" started-at="2022-05-12T10:21:27 IDT" data-provider="getDataFromExcel" finished-at="2022-05-12T10:21:50 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wine]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[imported wine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cabernet sauvignon chile]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[wine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_tc09_tc10_productDetails -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ProductDetailsPagesTest@481a15ff]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-12T10:21:50 IDT" finished-at="2022-05-12T10:21:50 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc08_tc09_tc10_productDetails status=SUCCESS method=ProductDetailsPagesTest.tc08_tc09_tc10_productDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ProductDetailsPagesTest@481a15ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ProductDetailsPagesTest@481a15ff]" name="tearDown" is-config="true" duration-ms="1570" started-at="2022-05-12T10:21:50 IDT" finished-at="2022-05-12T10:21:52 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductDetailsPagesTest -->
+      <class name="tests.SignInTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SignInTest@67b467e9]" name="setup" is-config="true" duration-ms="46766" started-at="2022-05-12T10:17:17 IDT" finished-at="2022-05-12T10:18:04 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01_signInWrongDetails()[pri:0, instance:tests.SignInTest@67b467e9]" name="tc01_signInWrongDetails" duration-ms="16855" started-at="2022-05-12T10:18:04 IDT" finished-at="2022-05-12T10:18:21 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_signInWrongDetails -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SignInTest@67b467e9]" name="failedTest" is-config="true" duration-ms="21" started-at="2022-05-12T10:18:21 IDT" finished-at="2022-05-12T10:18:21 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_signInWrongDetails status=SUCCESS method=SignInTest.tc01_signInWrongDetails()[pri:0, instance:tests.SignInTest@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_signInInvalidMail()[pri:0, instance:tests.SignInTest@67b467e9]" name="tc02_signInInvalidMail" duration-ms="3546" started-at="2022-05-12T10:18:21 IDT" finished-at="2022-05-12T10:18:24 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_signInInvalidMail -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SignInTest@67b467e9]" name="failedTest" is-config="true" duration-ms="1" started-at="2022-05-12T10:18:24 IDT" finished-at="2022-05-12T10:18:24 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_signInInvalidMail status=SUCCESS method=SignInTest.tc02_signInInvalidMail()[pri:0, instance:tests.SignInTest@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_signInRightDetails()[pri:0, instance:tests.SignInTest@67b467e9]" name="tc03_signInRightDetails" duration-ms="6885" started-at="2022-05-12T10:18:24 IDT" finished-at="2022-05-12T10:18:31 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_signInRightDetails -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.SignInTest@67b467e9]" name="failedTest" is-config="true" duration-ms="6" started-at="2022-05-12T10:18:31 IDT" finished-at="2022-05-12T10:18:31 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_signInRightDetails status=SUCCESS method=SignInTest.tc03_signInRightDetails()[pri:0, instance:tests.SignInTest@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SignInTest@67b467e9]" name="tearDown" is-config="true" duration-ms="1746" started-at="2022-05-12T10:18:31 IDT" finished-at="2022-05-12T10:18:33 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignInTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
